@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+    <script src="pokedex.js" defer></script>
+</head>
+
+<body>
+    <header class="container">       
+        <img src="Pokemon1.png" alt="pokemon" class="img_container">
+    </header>
+    <div class="container">
+        <!--<h1>Pokedex</h1>-->
+        <div class="contInputs">
+            <div id="div_inputName">
+                <p>Filtrar por nombre</p>
+                <input id="inputName" type="text">
+            </div>
+            <div id="div_inputType">
+                <p>Filtrar por tipo</p>
+                <input id="inputType" type="text">
+            </div>
+        </div>
+        
+        <ol id="pokedex"></ol>
+    </div>
+</body>
+
+</html>
